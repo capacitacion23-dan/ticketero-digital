@@ -47,6 +47,7 @@ SISTEMA TICKETERO DIGITAL - DESARROLLO ASISTIDO POR IA
 📚 DOCUMENTACIÓN TÉCNICA
 ├── PROMPT_DOC_README → README.md
 ├── PROMPT_DOC_CONTEXTO_CAMBIOS → CONTEXT-OF-CHANGES.md
+├── PROMPT_DOC_CONTEXTO_CAMBIOS_ACTUALIZACION_V1 → actualización CONTEXT-OF-CHANGES.md
 ├── PROMPT_DOC_PROMPTS → docs/PROMPTS.md (este documento)
 ├── PROMPT_DOC_REQUERIMIENTOS → docs/REQUERIMIENTOS.md
 ├── PROMPT_DOC_CODIGO → docs/CODIGO.md
@@ -57,7 +58,7 @@ SISTEMA TICKETERO DIGITAL - DESARROLLO ASISTIDO POR IA
 └── PROMPT_DOC_USO_SISTEMA → docs/USO-SISTEMA.md
 
 📊 MÉTRICAS DEL PROYECTO
-• 18 prompts estructurados
+• 19 prompts estructurados
 • 15+ documentos técnicos generados
 • 42+ archivos Java implementados
 • 65+ tests (unitarios + E2E + performance)
@@ -211,6 +212,15 @@ SISTEMA TICKETERO DIGITAL - DESARROLLO ASISTIDO POR IA
   - Convención de tags semánticos
   - Rol de los prompts en la evolución
   - Cómo interpretar la historia del repositorio
+
+#### PROMPT_DOC_CONTEXTO_CAMBIOS_ACTUALIZACION_V1: Actualización de Documentación de Evolución
+- **Propósito:** Actualizar y mejorar la documentación de evolución del proyecto con mapa visual
+- **Artefacto generado:** Actualización de `CONTEXT-OF-CHANGES.md`
+- **Contenido clave:**
+  - Mapa visual ASCII de la evolución del desarrollo
+  - Iconos y estructura de árbol para mejor navegación
+  - Métricas del proyecto consolidadas
+  - Flujo conceptual de desarrollo
 
 #### PROMPT_DOC_PROMPTS: Documentación de Prompts
 - **Propósito:** Documentar todos los prompts utilizados (este documento)

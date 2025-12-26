@@ -2,155 +2,141 @@
 
 ## Introducción
 
-El **Sistema Ticketero Digital** fue desarrollado siguiendo un enfoque **incremental y estructurado**, donde cada componente del sistema evolucionó de manera coordinada a través de hitos bien definidos. Este documento explica la metodología utilizada, el propósito de los tags semánticos y cómo interpretar la historia del repositorio.
+El repositorio del **Sistema Ticketero Digital** fue construido de forma incremental siguiendo una metodología estructurada de desarrollo asistido por IA. La evolución del sistema está documentada mediante **tags semánticos** que representan hitos estables del desarrollo, cada uno correspondiente a la consolidación de artefactos específicos.
 
-## Enfoque de Evolución del Proyecto
+Los tags no solo marcan puntos en el tiempo, sino que reflejan la **progresión conceptual** del proyecto desde el análisis inicial hasta la preparación operacional. Cada tag representa un estado coherente y funcional del sistema en su respectiva etapa de desarrollo.
 
-### Metodología Incremental
+## Tags Existentes del Repositorio
 
-El proyecto siguió una metodología de **desarrollo incremental asistido por IA** con las siguientes características:
+El repositorio contiene los siguientes tags, que constituyen el conjunto cerrado de referencias para la evolución del proyecto:
 
-- **Desarrollo por fases:** Cada fase genera artefactos específicos que sirven como entrada para la siguiente
-- **Validación continua:** Cada hito incluye puntos de verificación antes de avanzar
-- **Trazabilidad completa:** Cada artefacto está vinculado a requerimientos y decisiones técnicas específicas
-- **Calidad por diseño:** Patrones y buenas prácticas integradas desde el análisis inicial
+- `docs-ticket-system-rf-v1.0`
+- `docs-ticket-system-arch-v1.0`
+- `docs-ticket-system-impl-v1.0`
+- `docs-ticket-system-readme-v1.0`
+- `code-ticket-system-impl-v1.0`
+- `code-ticket-system-unit-tests-v1.0`
+- `code-ticket-system-functional-tests-v1.0`
+- `code-ticket-system-non-functional-tests-v1.0`
+- `infra-ticket-system-dry-run-v1.0`
+- `infra-ticket-system-deploy-v1.0`
 
-### Fases de Desarrollo
-
-1. **Análisis y Requerimientos** → Especificaciones funcionales detalladas
-2. **Arquitectura y Diseño** → Decisiones técnicas y diagramas de sistema
-3. **Planificación** → Roadmap de implementación paso a paso
-4. **Implementación** → Código fuente completo del sistema
-5. **Testing** → Validación a múltiples niveles (unitario, integración, performance)
-6. **Infraestructura** → Deployment automatizado con AWS CDK
-7. **Documentación** → Documentación técnica exhaustiva
-
-### Coordinación de Artefactos
-
-La evolución del repositorio mantiene **coherencia entre cuatro dimensiones**:
-
-- **Código fuente** (`src/`) → Implementación funcional
-- **Documentación** (`docs/`) → Especificaciones y guías técnicas  
-- **Pruebas** (`scripts/`, `k6/`) → Validación de calidad funcional y no funcional
-- **Infraestructura** (`ticketero-infra/`) → Deployment production-ready
-
-## Convención de Tags y Propósito
-
-### Tags Semánticos
-
-El repositorio utiliza **tags semánticos** como mecanismo de trazabilidad para marcar hitos importantes en la evolución del sistema:
+## Mapa de Evolución del Desarrollo
 
 ```
-v1.0.0-analysis     # Análisis y requerimientos completados
-v1.0.0-architecture # Arquitectura y diseño finalizados  
-v1.0.0-planning     # Plan de implementación definido
-v1.0.0-core         # Implementación core completada
-v1.0.0-testing      # Suite de pruebas implementada
-v1.0.0-infra        # Infraestructura CDK lista
-v1.0.0-docs         # Documentación completa
-v1.0.0              # Release final del sistema
+SISTEMA TICKETERO DIGITAL - EVOLUCIÓN DEL DESARROLLO
+
+📋 DESCUBRIMIENTO Y DEFINICIÓN
+└── docs-ticket-system-rf-v1.0
+
+🏗️ DISEÑO Y ARQUITECTURA
+└── docs-ticket-system-arch-v1.0
+
+⚙️ PLANIFICACIÓN E IMPLEMENTACIÓN INICIAL
+├── docs-ticket-system-impl-v1.0
+└── code-ticket-system-impl-v1.0
+
+🧪 VALIDACIÓN Y CALIDAD
+├── code-ticket-system-unit-tests-v1.0
+├── code-ticket-system-functional-tests-v1.0
+└── code-ticket-system-non-functional-tests-v1.0
+
+☁️ PREPARACIÓN OPERACIONAL
+├── infra-ticket-system-dry-run-v1.0
+└── infra-ticket-system-deploy-v1.0
+
+📚 CONSOLIDACIÓN DOCUMENTAL
+└── docs-ticket-system-readme-v1.0
+
+═══════════════════════════════════════════════════════════
+FLUJO: Análisis → Diseño → Implementación → Testing → Deploy → Docs
+TAGS: 10 hitos estables | METODOLOGÍA: Desarrollo Asistido por IA
 ```
 
-### Propósito de los Tags
+La estructura jerárquica representa la **evolución conceptual** del desarrollo del Sistema Ticketero Digital, agrupada por etapas del ciclo de vida:
 
-- **Trazabilidad:** Identificar el estado del sistema en cada hito
-- **Rollback controlado:** Posibilidad de volver a estados estables anteriores
-- **Auditoría:** Seguimiento de la evolución de decisiones técnicas
-- **Reproducibilidad:** Capacidad de replicar el proceso en otros proyectos
+### 1. Descubrimiento y Definición
+- `docs-ticket-system-rf-v1.0`
 
-## Rol de los Prompts en la Evolución del Sistema
+### 2. Diseño y Arquitectura
+- `docs-ticket-system-arch-v1.0`
 
-### Desarrollo Asistido por IA
+### 3. Planificación e Implementación Inicial
+- `docs-ticket-system-impl-v1.0`
+- `code-ticket-system-impl-v1.0`
 
-El proyecto utiliza **Amazon Q Developer** como asistente de IA para acelerar el desarrollo manteniendo altos estándares de calidad. Los prompts actúan como:
+### 4. Validación y Calidad
+- `code-ticket-system-unit-tests-v1.0`
+- `code-ticket-system-functional-tests-v1.0`
+- `code-ticket-system-non-functional-tests-v1.0`
 
-- **Especificaciones ejecutables:** Cada prompt define claramente qué artefacto generar
-- **Metodología estructurada:** Pasos específicos con criterios de validación
-- **Transferencia de conocimiento:** Documentación del proceso de desarrollo
-- **Garantía de consistencia:** Aplicación uniforme de patrones y buenas prácticas
+### 5. Preparación Operacional
+- `infra-ticket-system-dry-run-v1.0`
+- `infra-ticket-system-deploy-v1.0`
 
-### Tipos de Prompts
+### 6. Consolidación Documental
+- `docs-ticket-system-readme-v1.0`
 
-1. **Prompts de Sistema** (`PROMPT_*.md`) → Generan implementación técnica
-2. **Prompts de Documentación** (`PROMPT_DOC_*.md`) → Generan documentación técnica
-3. **Prompts de Validación** → Verifican coherencia entre artefactos
+## Descripción de las Etapas y Tags
 
-### Beneficios del Enfoque
+### Etapa 1: Descubrimiento y Definición
+Esta etapa establece las bases funcionales del sistema mediante el análisis detallado de requerimientos.
 
-- **Velocidad:** 80% de reducción en tiempo de desarrollo vs. métodos tradicionales
-- **Calidad:** Aplicación sistemática de buenas prácticas de ingeniería
-- **Documentación:** Generación automática de documentación técnica completa
-- **Mantenibilidad:** Código limpio y arquitectura bien documentada
+- **`docs-ticket-system-rf-v1.0`**: Consolidación de requerimientos funcionales detallados, reglas de negocio y criterios de aceptación. Incluye 8 requerimientos funcionales principales, 13 reglas de negocio y más de 40 escenarios Gherkin que definen el comportamiento esperado del sistema.
 
-## Cómo Interpretar la Historia del Repositorio
+### Etapa 2: Diseño y Arquitectura
+Transforma los requerimientos en un diseño técnico ejecutable con decisiones arquitectónicas fundamentadas.
 
-### Estructura de Commits
+- **`docs-ticket-system-arch-v1.0`**: Arquitectura completa del sistema incluyendo stack tecnológico, diagramas C4, modelo de datos y ADRs (Architecture Decision Records). Define la estructura hexagonal y los patrones de integración.
 
-Los commits siguen una convención que refleja la fase de desarrollo:
+### Etapa 3: Planificación e Implementación Inicial
+Materializa el diseño en código funcional siguiendo el plan de implementación estructurado.
 
-```
-feat: implement core ticket management system
-docs: add comprehensive API documentation  
-test: add performance and resilience testing
-infra: add AWS CDK infrastructure templates
-refactor: apply Java 21 patterns and best practices
-```
+- **`docs-ticket-system-impl-v1.0`**: Plan detallado de implementación con estructura de proyecto, migraciones de base de datos y orden de desarrollo recomendado.
+- **`code-ticket-system-impl-v1.0`**: Implementación completa del código fuente incluyendo entidades JPA, servicios, controladores, DTOs y configuraciones. Sistema funcional con todas las características principales.
 
-### Evolución de Artefactos
+### Etapa 4: Validación y Calidad
+Asegura la calidad del sistema mediante una estrategia integral de testing que cubre aspectos funcionales y no funcionales.
 
-Para entender la evolución del sistema, revisar en orden:
+- **`code-ticket-system-unit-tests-v1.0`**: Suite completa de pruebas unitarias con cobertura superior al 70% en servicios críticos, utilizando Mockito y AssertJ.
+- **`code-ticket-system-functional-tests-v1.0`**: Pruebas de integración end-to-end con TestContainers, validando flujos completos de negocio y integraciones externas.
+- **`code-ticket-system-non-functional-tests-v1.0`**: Validación de requisitos no funcionales incluyendo performance, concurrencia, resiliencia y auto-recovery mediante K6 y scripts especializados.
 
-1. **Commits iniciales** → Análisis de requerimientos y arquitectura
-2. **Tags de hito** → Estados estables del sistema en cada fase
-3. **Documentación** → Decisiones técnicas y justificaciones
-4. **Pruebas** → Validación de cumplimiento de requerimientos
-5. **Infraestructura** → Preparación para deployment production
+### Etapa 5: Preparación Operacional
+Prepara el sistema para deployment en producción con infraestructura como código y procedimientos operacionales.
 
-### Relación entre Componentes
+- **`infra-ticket-system-dry-run-v1.0`**: Infraestructura AWS completa usando CDK, incluyendo VPC, RDS, ECS Fargate, Application Load Balancer y servicios de monitoreo, validada en modo dry-run.
+- **`infra-ticket-system-deploy-v1.0`**: Procedimientos y guías operacionales para deployment real, incluyendo configuración de AWS CLI, bootstrap CDK y troubleshooting.
 
-- **Requerimientos** (`docs/REQUERIMIENTOS-*.md`) → Definen el **qué** y **por qué**
-- **Arquitectura** (`docs/ARQUITECTURA.md`) → Define el **cómo** técnico
-- **Código** (`src/`) → Implementa las decisiones de arquitectura
-- **Pruebas** (`scripts/`, `k6/`) → Validan el cumplimiento de requerimientos
-- **Infraestructura** (`ticketero-infra/`) → Habilita el deployment
+### Etapa 6: Consolidación Documental
+Consolida toda la documentación del proyecto para facilitar su comprensión y mantenimiento.
 
-### Navegación Recomendada
+- **`docs-ticket-system-readme-v1.0`**: Documentación principal del repositorio con visión general, estructura del proyecto y guías de navegación organizadas por roles (stakeholders, desarrolladores, QA, DevOps).
 
-Para comprender el proyecto completamente:
+## Uso de Asistentes de IA
 
-1. **Leer** `README.md` → Visión general del sistema
-2. **Revisar** `docs/REQUERIMIENTOS-NEGOCIO.md` → Contexto de negocio
-3. **Estudiar** `docs/ARQUITECTURA.md` → Decisiones técnicas
-4. **Examinar** `docs/CODIGO.md` → Patrones de implementación
-5. **Validar** `docs/PRUEBAS.md` → Resultados de testing
-6. **Entender** `docs/DEPLOY.md` → Estrategia de deployment
+El desarrollo del Sistema Ticketero Digital utilizó **Amazon Q** como asistente técnico principal, aplicando una metodología de desarrollo asistido por IA que permitió:
 
-## Consideraciones Técnicas
+- **Productividad acelerada**: Generación de artefactos complejos en tiempos reducidos
+- **Consistencia técnica**: Aplicación uniforme de patrones y buenas prácticas
+- **Trazabilidad completa**: Cada artefacto vinculado a requerimientos específicos
+- **Calidad por diseño**: Integración de estándares desde la concepción
 
-### Versionamiento Semántico
+El enfoque no reemplaza la experiencia técnica, sino que la amplifica mediante la automatización de tareas repetitivas y la aplicación sistemática de conocimiento especializado.
 
-El proyecto sigue **Semantic Versioning 2.0.0**:
-- **MAJOR:** Cambios incompatibles en API
-- **MINOR:** Funcionalidad nueva compatible hacia atrás  
-- **PATCH:** Correcciones de bugs compatibles
+## Cómo Leer la Historia del Repositorio
 
-### Gestión de Dependencias
+Para comprender la evolución del proyecto, se recomienda seguir este orden de lectura:
 
-- **Maven** para gestión de dependencias Java
-- **Flyway** para versionamiento de esquema de base de datos
-- **Docker** para containerización y entornos reproducibles
-- **AWS CDK** para infraestructura como código
+1. **Consultar el Mapa de Evolución** (sección anterior) como referencia principal
+2. **Seguir el orden conceptual** de las etapas, no necesariamente el cronológico de los commits
+3. **Revisar cada tag** en el contexto de su etapa para entender su propósito específico
+4. **Considerar las dependencias** entre etapas: cada una construye sobre las anteriores
 
-### Estándares de Calidad
-
-El proyecto mantiene estándares estrictos definidos en `.amazonq/rules/`:
-- Patrones Spring Boot y arquitectura en capas
-- Convenciones JPA y manejo de base de datos
-- Validación con DTOs y Records (Java 21)
-- Uso correcto de Lombok y features modernas de Java
+El mapa representa la **lógica de desarrollo**, donde cada etapa consolida aspectos específicos del sistema antes de avanzar a la siguiente. Esta progresión asegura que cada hito sea estable y sirva como base sólida para el desarrollo posterior.
 
 ---
 
-**Versión:** 1.0  
 **Metodología:** Desarrollo Incremental Asistido por IA  
-**Herramientas:** Amazon Q Developer + AWS CDK + Spring Boot 3.x
+**Herramienta:** Amazon Q Developer  
+**Enfoque:** Tags semánticos para trazabilidad completa

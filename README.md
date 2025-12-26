@@ -12,6 +12,8 @@ El **Sistema Ticketero Digital** es una solución empresarial backend para la ge
 
 **Tipo de sistema:** Backend empresarial con arquitectura event-driven, API REST y procesamiento asíncrono de eventos.
 
+> **Nota:** Este repositorio fue construido de forma incremental siguiendo una metodología estructurada. La evolución del sistema está documentada mediante tags semánticos y artefactos versionados. Para más detalles, consultar [CONTEXT-OF-CHANGES.md](./CONTEXT-OF-CHANGES.md).
+
 ## Estructura del Repositorio
 
 ```

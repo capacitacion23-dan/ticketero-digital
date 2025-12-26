@@ -22,6 +22,51 @@ El proyecto siguió una metodología de **desarrollo incremental asistido por IA
 
 ---
 
+## Mapa de Prompts y Artefactos
+
+```
+SISTEMA TICKETERO DIGITAL - DESARROLLO ASISTIDO POR IA
+
+📋 ANÁLISIS Y REQUERIMIENTOS
+├── PROMPT 1 → docs/REQUERIMIENTOS-FUNCIONALES.md
+
+🏗️ ARQUITECTURA Y DISEÑO  
+├── PROMPT 2 → docs/ARQUITECTURA.md
+├── PROMPT 3 → docs/PLAN-IMPLEMENTACION.md
+└── PROMPT 4 → src/ (código completo)
+
+🧪 TESTING Y CALIDAD
+├── PROMPT 6A → src/test/java/ (tests unitarios)
+├── PROMPT 6B → tests E2E con TestContainers
+└── PROMPT 6C → k6/, scripts/ (performance y NFR)
+
+☁️ INFRAESTRUCTURA Y DEPLOYMENT
+├── PROMPT 7 → ticketero-infra/ (AWS CDK)
+└── PROMPT 7B → guías de deployment
+
+📚 DOCUMENTACIÓN TÉCNICA
+├── PROMPT_DOC_README → README.md
+├── PROMPT_DOC_CONTEXTO_CAMBIOS → CONTEXT-OF-CHANGES.md
+├── PROMPT_DOC_PROMPTS → docs/PROMPTS.md (este documento)
+├── PROMPT_DOC_REQUERIMIENTOS → docs/REQUERIMIENTOS.md
+├── PROMPT_DOC_CODIGO → docs/CODIGO.md
+├── PROMPT_DOC_BASE-DE-DATOS → docs/BASE-DE-DATOS.md
+├── PROMPT_DOC_ENDPOINTS → docs/ENDPOINTS.md
+├── PROMPT_DOC_DEPLOY → docs/DEPLOY.md
+├── PROMPT_DOC_PRUEBAS → docs/PRUEBAS.md
+└── PROMPT_DOC_USO_SISTEMA → docs/USO-SISTEMA.md
+
+📊 MÉTRICAS DEL PROYECTO
+• 18 prompts estructurados
+• 15+ documentos técnicos generados
+• 42+ archivos Java implementados
+• 65+ tests (unitarios + E2E + performance)
+• Stack CDK completo para AWS
+• 80% reducción en tiempo de desarrollo
+```
+
+---
+
 ## Lista de Prompts Utilizados
 
 ### 1. Análisis y Requerimientos
@@ -149,6 +194,24 @@ El proyecto siguió una metodología de **desarrollo incremental asistido por IA
 
 ### 6. Documentación
 
+#### PROMPT_DOC_README: Documentación Principal del Proyecto
+- **Propósito:** Generar el README.md principal del repositorio
+- **Artefacto generado:** `README.md`
+- **Contenido clave:**
+  - Visión general del sistema
+  - Estructura del repositorio
+  - Guías de navegación por roles
+  - Estado del proyecto y roadmap
+
+#### PROMPT_DOC_CONTEXTO_CAMBIOS: Documentación de Evolución del Proyecto
+- **Propósito:** Documentar el enfoque incremental y la evolución del repositorio
+- **Artefacto generado:** `CONTEXT-OF-CHANGES.md`
+- **Contenido clave:**
+  - Metodología de desarrollo incremental
+  - Convención de tags semánticos
+  - Rol de los prompts en la evolución
+  - Cómo interpretar la historia del repositorio
+
 #### PROMPT_DOC_PROMPTS: Documentación de Prompts
 - **Propósito:** Documentar todos los prompts utilizados (este documento)
 - **Artefacto generado:** `docs/PROMPTS.md`
@@ -249,12 +312,6 @@ El proyecto siguió una metodología de **desarrollo incremental asistido por IA
 - Manual operacional
 
 ### 6. **Fase de Documentación** (Prompts DOC_*)
-- Documentación técnica completa
-- Trazabilidad de decisiones
-- Guías operacionales calidad funcional y no funcional
-- Métricas de performance
-
-### 5. **Fase de Documentación** (Prompts DOC_*)
 - Documentación técnica completa
 - Trazabilidad de decisiones
 - Guías operacionales

@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    # TestContainers will override these values dynamically
+    url: jdbc:postgresql://localhost:5432/ticketero_test
+    username: test
+    password: test
+    driver-class-name: org.postgresql.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  
+  flyway:
+    enabled: false  # Disable for tests, use ddl-auto instead
+
+logging:
+  level:
+    com.example.ticketero: DEBUG
+    org.springframework.web: DEBUG
+    org.testcontainers: INFO
+    
+telegram:
+  bot:
+    token: test-token
+    chat-id: 123456789
+  api:
+    url: http://localhost:8089

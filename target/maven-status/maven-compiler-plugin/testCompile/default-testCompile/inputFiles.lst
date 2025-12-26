@@ -1,6 +1,14 @@
-c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\service\MessageServiceTest.java
 c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\service\AdvisorServiceTest.java
 c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\service\TicketServiceTest.java
+c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\integration\AdvancedIntegrationTest.java
 c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\service\DashboardServiceTest.java
 c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\service\QueueProcessorServiceTest.java
 c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\testutil\TestDataBuilder.java
+c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\integration\TestContainersBaseTest.java
+c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\integration\TicketCreationITest.java
+c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\service\MessageServiceTest.java
+c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\integration\TicketCreationTestContainersTest.java
+c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\integration\TicketE2ETest.java
+c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\integration\BaseIntegrationTest.java
+c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\config\WireMockConfig.java
+c:\Desarrollo\capacitación\ticketero-digital\src\test\java\com\example\ticketero\integration\ValidationITest.java
